@@ -2,7 +2,8 @@
 
 /**
  * binary_tree_size - Measures the size of the binary tree
- *@tree: pointer to the root node of the tree
+ * @tree: pointer to the root node of the tree
+ * Return: 1 on success, 0 on failure
  */
 size_t binary_tree_size(const binary_tree_t *tree)
 {

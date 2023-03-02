@@ -37,5 +37,7 @@ size_t max(size_t left, size_t right);
 size_t binary_tree_depth(const binary_tree_t *tree);
 size_t binary_tree_size(const binary_tree_t *tree);
 size_t binary_tree_leaves(const binary_tree_t *tree);
+size_t binary_tree_nodes(const binary_tree_t *tree);
+int binary_tree_balance(const binary_tree_t *tree);
 void binary_tree_print(const binary_tree_t *);
 #endif
